@@ -18,7 +18,7 @@
   <main id="top" class="wrap">
     <article class="hero"><div class="eyebrow">AI TOOLS / QUICK REPORT</div><h1>AIツール活用レポート</h1><p>エージェントAI・自動化・生成AIの用途別メモ。</p>
       <nav class="contents" aria-label="目次"><b>目次</b><a href="#agents">01 エージェントAI</a><a href="#automation">02 自動化</a><a href="#image">03 画像生成</a><a href="#video">04 動画生成</a><a href="#prices">05 料金</a></nav>
-      <aside class="summary" aria-label="まとめ"><b>まとめ</b><span><strong>コーディングエージェント：</strong>性能なら Claude Code、価格なら OpenCode ＋ DeepSeek Flash。</span><span><strong>自律型パーソナルエージェント：</strong>おすすめは Muse。</span><span><strong>生成AI：</strong>画像は GPT Image、動画は Seedance。</span></aside>
+      <aside class="summary" aria-label="まとめ"><b>まとめ</b><span><strong>高性能コーディング：</strong>Claude Code と Codex。今はClaude Codeが強い印象。</span><span><strong>低価格コーディング：</strong>OpenCode ＋ DeepSeek Flash。一般用途なら十分なことも。</span><span><strong>パーソナルエージェント：</strong>Muse。画像は GPT Image、動画は Seedance。</span></aside>
     </article>
 
     <section id="agents" class="section"><div class="section-head"><div><div class="eyebrow">01 / Agents</div><h2>エージェントAI</h2></div><p>自立型パーソナルエージェントと、コーディングエージェントを使い分ける。</p></div>
@@ -28,10 +28,12 @@
         <tr><td><a href="https://docs.x.ai/grok-bot/overview">Grok Bot</a></td><td>複数アプリをまたぐ業務、定期タスク、Bot同士の分担</td><td>永続するクラウドPC（ブラウザ・ファイル・ターミナル）で動く。繰り返しの業務フロー向け。Premium $30/月から。</td></tr>
       </tbody></table></div>
       <h3 style="margin:26px 0 12px">コーディングエージェント</h3><div class="grid">
-        <article class="card"><span class="tag">性能重視</span><h3><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a></h3><p>作業フォルダのコードを読み、複数ファイルを編集し、コマンドやテストを実行。開発を深く任せたい人向け。</p><p class="price">Claude Pro <b>$20/月</b>（米国目安）</p></article>
-        <article class="card"><span class="tag">価格重視</span><h3><a href="https://opencode.ai/">OpenCode ＋ DeepSeek Flash</a></h3><p>OpenCodeでモデルを選択。低コストでコードエージェントを試したい人向け。</p><p class="price">OpenCode本体無料。APIは従量課金。</p></article>
+        <article class="card"><span class="tag">高性能</span><h3><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a></h3><p>コードベースを読み、複数ファイルを編集し、コマンドやテストを実行。</p><p class="price">Claude Pro <b>$20/月</b>（米国目安）</p></article>
+        <article class="card"><span class="tag">高性能</span><h3><a href="https://developers.openai.com/codex">Codex</a></h3><p>コードの作成・レビュー・デバッグ。CLI、IDE、Web/Cloudで使える。</p><p class="price">ChatGPTプランに含まれる。利用枠はプラン別。</p></article>
+        <article class="card"><span class="tag">低価格</span><h3><a href="https://opencode.ai/">OpenCode ＋ DeepSeek Flash</a></h3><p>モデルを選んで使う低コスト構成。軽めの実装や個人開発の候補。</p><p class="price">OpenCode本体無料。APIは従量課金。</p></article>
       </div>
-      <p style="margin:20px 0 10px"><b>選び方：</b>ChatGPTは指示ごとに動く汎用作業役、Museは好みや目標を踏まえて先回りする個人秘書、Grok BotはクラウドPCで定期業務を回すチーム役。コードベースの変更はClaude Code。</p>
+      <p style="margin:20px 0 10px"><b>所感：</b>高性能エージェントは Claude Code と Codex の二強。今は Claude Code が強く感じるが、両者が切磋琢磨している。簡単な作業や一般ユーザーには、ここまでの性能が不要なことも多い。</p>
+      <p><b>パーソナル系の違い：</b>ChatGPTは指示ごとの汎用作業役、Museは好みや目標を踏まえる個人秘書、Grok BotはクラウドPCで定期業務を回すチーム役。</p>
       <div class="prompt"><b>活用例：</b>ファイル分類 / Web情報の要約・比較 / CSV解析 / レポート作成</div>
       <p class="note">Google Argonは文章力が高いとの評判。自分ではまだ未評価。</p>
     </section>
@@ -67,6 +69,6 @@
       <tr><td>DeepSeek API</td><td>月額なし、従量課金</td><td>Flashはピーク時入力$0.30・出力$1.20 / 100万トークン。</td></tr>
     </tbody></table></div><p class="note" style="margin-top:13px">契約前に申込画面の請求額と更新価格を確認。</p></section>
   </main>
-  <footer class="footer"><div class="wrap"><p>個人用のAIツール活用メモ。機能や料金は更新されます。購入・業務利用前に各公式サイトをご確認ください。</p><p>出典：<a href="https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt">ChatGPT cloud browser</a> · <a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">Meta Muse</a> · <a href="https://docs.x.ai/grok-bot/overview">Grok Bot</a> · <a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a> · <a href="https://playwright.dev/docs/intro">Playwright</a> · <a href="https://developer.android.com/tools/adb">Android ADB</a> · <a href="https://support.apple.com/en-gb/guide/iphone/iph47e1c9d7d/27/ios/27">iPhoneショートカット</a> · <a href="https://developer.apple.com/documentation/XCUIAutomation">XCUITest</a> · <a href="https://x.ai/pricing">Grok料金</a> · <a href="https://opencode.ai/docs/go">OpenCode Go</a> · <a href="https://www.anthropic.com/pricing">Claude料金</a> · <a href="https://chatgpt.com/pricing">ChatGPT料金</a> · <a href="https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0">Seedance公式情報</a> · <a href="https://www.inmuking.jp/en/articles/inmu-king-ai/">INMU KING制作メモ</a> · <a href="https://dreamina.capcut.com/pricing/dreamina-seedance-price-day">Dreamina料金</a></p><a href="https://github.com/jim-auto/ai_tips">GitHub リポジトリ</a></div></footer>
+  <footer class="footer"><div class="wrap"><p>個人用のAIツール活用メモ。機能や料金は更新されます。購入・業務利用前に各公式サイトをご確認ください。</p><p>出典：<a href="https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt">ChatGPT cloud browser</a> · <a href="https://developers.openai.com/codex">Codex</a> · <a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">Meta Muse</a> · <a href="https://docs.x.ai/grok-bot/overview">Grok Bot</a> · <a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a> · <a href="https://playwright.dev/docs/intro">Playwright</a> · <a href="https://developer.android.com/tools/adb">Android ADB</a> · <a href="https://support.apple.com/en-gb/guide/iphone/iph47e1c9d7d/27/ios/27">iPhoneショートカット</a> · <a href="https://developer.apple.com/documentation/XCUIAutomation">XCUITest</a> · <a href="https://x.ai/pricing">Grok料金</a> · <a href="https://opencode.ai/docs/go">OpenCode Go</a> · <a href="https://www.anthropic.com/pricing">Claude料金</a> · <a href="https://chatgpt.com/pricing">ChatGPT料金</a> · <a href="https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0">Seedance公式情報</a> · <a href="https://www.inmuking.jp/en/articles/inmu-king-ai/">INMU KING制作メモ</a> · <a href="https://dreamina.capcut.com/pricing/dreamina-seedance-price-day">Dreamina料金</a></p><a href="https://github.com/jim-auto/ai_tips">GitHub リポジトリ</a></div></footer>
 </body>
 </html>

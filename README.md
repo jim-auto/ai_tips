@@ -4,30 +4,31 @@
 
 | やりたいこと | おすすめ | ひとこと |
 | --- | --- | --- |
-| いろいろ相談・文章作成 | [ChatGPT](https://chatgpt.com/) | 無料から。画像生成やファイル相談もできる |
-| 長文の読解・文章の相談 | [Claude](https://claude.ai/) | 無料から。Pro は米国価格で月 $20（年払い換算 $17/月） |
-| コード作業をエージェントに任せる | [OpenCode](https://opencode.ai/) | ツール自体は無料・OSS。モデル/API料金は別 |
-| 動画生成 | [Seedance](https://seed.bytedance.com/en/seedance) | 利用するサービスやプランにより料金が異なる |
+| いろいろ相談・文章作成 | [ChatGPT](https://chatgpt.com/) | 無料 / Plus $20/月 / Pro $100・$200・$500/月 |
+| 長文の読解・文章の相談 | [Claude](https://claude.ai/) | 無料 / Pro $20/月（月払い）・$17/月相当（年払い）/ Max $100・$200/月 |
+| コード作業をエージェントに任せる | [OpenCode](https://opencode.ai/) | OpenCode Go $10/月、Go Plus $40/月。DeepSeek API直結は従量課金 |
+| 動画生成 | [Seedance](https://seed.bytedance.com/en/seedance) | Dreaminaの月額プラン例: Basic $15/月から（地域・特典で変動） |
 | 画像生成 | [ChatGPT](https://chatgpt.com/) | 無料から試せる。利用上限はプランで異なる |
 
-料金は2026年11月に確認した目安です。米ドル表示の公式価格は日本円価格、税、アプリストア価格と異なる場合があります。契約前に各公式ページで確認してください。
+料金は2026年11月に確認した米ドルの目安です。日本円価格、税、アプリストア価格、キャンペーンで異なる場合があります。契約画面の継続価格を確認してください。
 
 ## 料金の目安
 
 | サービス | 無料で試せる？ | 有料の目安 | メモ |
 | --- | --- | --- | --- |
-| ChatGPT | あり | [プラン一覧](https://chatgpt.com/pricing)で確認 | Plus/Pro など複数プラン。画像生成等の上限はプランで変わる |
-| Claude | あり | Pro は月 $20、年払いなら月あたり $17 | Max など上位プランもあり。地域・税で変動 |
-| OpenCode + DeepSeek | OpenCode は無料 | API従量課金。DeepSeek-V4.1-Flash は入力 $0.30/100万トークン、出力 $1.20/100万トークン（ピーク時） | キャッシュ利用や時間帯でさらに安くなる場合あり |
-| Seedance | 提供プラットフォームによる | 固定料金を一律に示せない | クレジット制・月額制など提供元で異なる。生成前に1本あたりの消費量を確認 |
+| ChatGPT | あり | Plus $20/月。Pro $100 / $200 / $500/月 | Proの申込可否や内容は地域・アカウントで確認。APIは別料金 |
+| Claude | あり | Pro $20/月、年払い $200/年（$17/月相当）。Max 5x $100/月、Max 20x $200/月 | 年払いは一括請求。地域・税で変動 |
+| OpenCode Go | OpenCode本体は無料 | Go $10/月、Go Plus $40/月、Go Teams $20/人/月 | 定額の利用枠付き。DeepSeek V4.1 Flashも選択可。枠やモデル構成を確認 |
+| DeepSeek APIをOpenCodeに接続 | OpenCode本体は無料 | 月額なし、従量課金。DeepSeek V4.1 Flashは入力 $0.30/100万トークン、出力 $1.20/100万トークン（ピーク時） | オフピークは各半額。使った分だけ支払う |
+| DreaminaでSeedance | 無料枠あり（提供条件による） | Basic $15/月からの表示例 | クレジット制。地域・キャンペーン・モデル・画質で変動。更新後の価格を確認 |
 
 ## OpenCodeで使うモデル
 
-コスパ重視なら、まず **DeepSeek V4.1 Flash** を試すのがおすすめです。OpenCode では DeepSeek のプロバイダーを接続し、モデル一覧から `deepseek/deepseek-flash` を選びます。モデルIDはプロバイダーやカタログ更新で変わることがあるため、OpenCode の `/models` に表示されるIDを優先してください。
+コスパ重視なら、まず **DeepSeek V4.1 Flash** を試すのがおすすめです。手軽に定額で使うなら OpenCode Go（月 $10）に接続してモデル一覧から選択。自分のAPIキーを使うならDeepSeekプロバイダーを接続します。モデルIDはカタログ更新で変わるため、OpenCode の `/models` に表示されるIDを優先してください。
 
 DeepSeek API のモデル名は `deepseek-flash`。公式価格は100万トークンあたり、ピーク時で入力 $0.30・出力 $1.20、オフピーク時で入力 $0.15・出力 $0.60（キャッシュ入力は別料金）です。コード変更は小さな作業から任せ、差分を確認してから採用すると安心です。
 
-OpenCode はクライアントなので、使うモデルと接続先を選べます。モデルの利用料はOpenCodeの利用料ではなく、接続するプロバイダーに支払います。無料のローカルモデルも選択肢ですが、速度やコード編集能力は実際の作業で確かめてください。
+OpenCode本体は無料で、モデルの料金は接続方法によります。Goは定額サブスク、DeepSeek API直結は従量課金、OpenCode Zenはモデルごとの従量課金です。無料のローカルモデルも使えます。
 
 ## まずはこの組み合わせ
 
@@ -67,5 +68,7 @@ OpenCode はクライアントなので、使うモデルと接続先を選べ�
 - [ChatGPT のプラン](https://chatgpt.com/pricing)
 - [Claude の料金](https://www.anthropic.com/pricing)
 - [OpenCode のモデル選択](https://opencode.ai/docs/models)
+- [OpenCode Go の月額プラン](https://opencode.ai/docs/go)
+- [OpenCode Zen のモデル料金](https://opencode.ai/zen)
 - [DeepSeek API のモデル・料金](https://api-docs.deepseek.com/quick_start/pricing/)
 - [Seedance 公式](https://seed.bytedance.com/en/seedance)

@@ -15,54 +15,49 @@
 <body>
   <header class="top"><div class="wrap nav"><a class="brand" href="#top">AI TIPS / 個人メモ</a><nav class="navlinks" aria-label="メインナビゲーション"><a href="#agents">エージェントAI</a><a href="#automation">自動化</a><a href="#image">画像生成</a><a href="#video">動画生成</a><a href="#prices">料金</a></nav></div></header>
   <main id="top" class="wrap">
-    <section class="hero"><div class="eyebrow">A practical field guide</div><h1>AIに任せて、<br>自分は考える。</h1><p>エージェントAIでファイルを整理し、ネットの情報を集め、データを分析する。<strong>用途ごとに道具を選ぶための、ざっくり実践メモ。</strong></p><div class="chips"><a class="chip" href="#agents">Claude Codeから始める</a><a class="chip" href="#automation">WebはPlaywright</a><a class="chip" href="#image">画像はNano Banana</a><a class="chip" href="#video">動画はSeedance</a></div></section>
+    <article class="hero"><div class="eyebrow">AI TOOLS / QUICK REPORT</div><h1>AIツール活用レポート</h1><p>エージェントAI・自動化・生成AIの用途別メモ。</p><div class="chips"><a class="chip" href="#agents">エージェント</a><a class="chip" href="#automation">自動化</a><a class="chip" href="#image">画像</a><a class="chip" href="#video">動画</a><a class="chip" href="#prices">料金</a></div></article>
 
-    <section id="agents" class="section"><div class="section-head"><div><div class="eyebrow">01 / Agents</div><h2>エージェントAI</h2></div><p>会話で答えるだけでなく、道具を使って作業を進めるAI。</p></div>
+    <section id="agents" class="section"><div class="section-head"><div><div class="eyebrow">01 / Agents</div><h2>エージェントAI</h2></div><p>おすすめ：Claude Code。ファイル・調査・解析・開発を任せる。</p></div>
       <div class="grid">
-        <article class="card"><span class="tag">まず試す</span><h3><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a></h3><p>代表的なコーディングエージェント。作業フォルダのファイルを読み、整理・検索・集計し、必要ならスクリプトやレポートも作れる。</p><p class="price">Claude Pro <b>$20/月</b>（米国価格目安）。利用上限・地域価格は要確認。</p></article>
-        <article class="card"><span class="tag">クラウドで作業</span><h3><a href="https://docs.x.ai/grok/overview">Grok Bot</a></h3><p>クラウド上のAIチームメイト。タスクを委任し、継続する作業や自動化を進める用途。利用枠は他のGrok機能と共有。</p><p class="price">Premium <b>$30/月</b>からBot利用。プラン・提供地域を要確認。</p></article>
-        <article class="card"><span class="tag">開発エージェント</span><h3><a href="https://opencode.ai/">OpenCode</a></h3><p>オープンソースのコーディングエージェント。モデルを選んでリポジトリの調査や修正を頼める。コスパ重視ならDeepSeek Flashを候補に。</p><p class="price">本体無料。OpenCode Go <b>$10/月</b>、Go Plus $40/月、またはAPI従量課金。</p></article>
-        <article class="card"><span class="tag">パーソナルエージェント</span><h3><a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">Meta Muse</a></h3><p>連携アプリやブラウザを使って、日常の用事や目標達成を手伝うタイプ。無料枠あり、現時点では米国から提供開始。</p></article>
-        <article class="card"><span class="tag">文章・相談</span><h3><a href="https://gemini.google.com/">Google Gemini / Argon</a></h3><p>Argonは文章力が高いという評判を聞く。自分ではまだあまり使っていないので、ここは未評価メモ。</p></article>
-        <article class="card"><span class="tag">普段使い</span><h3><a href="https://chatgpt.com/">ChatGPT</a> / <a href="https://claude.ai/">Claude</a></h3><p>相談、文章、資料の読解など。エージェント機能の範囲はプランや提供状況によって変わる。</p><p class="price">ChatGPT Plus / Claude Pro ともに <b>$20/月</b>（米国価格目安）。</p></article>
+        <article class="card"><span class="tag">おすすめ</span><h3><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a></h3><p>ファイル整理、ネット調査、データ解析、コード作業。</p><p class="price">Claude Pro <b>$20/月</b>（米国目安）</p></article>
+        <article class="card"><span class="tag">クラウド作業</span><h3><a href="https://docs.x.ai/grok/overview">Grok Bot</a></h3><p>継続タスクやクラウド上の作業を委任。</p><p class="price">Premium <b>$30/月</b>から</p></article>
+        <article class="card"><span class="tag">開発</span><h3><a href="https://opencode.ai/">OpenCode</a></h3><p>モデルを選べるオープンソースのコーディングエージェント。DeepSeek Flashは低コスト候補。</p><p class="price">本体無料 / Go <b>$10/月</b> / API従量課金</p></article>
+        <article class="card"><span class="tag">個人アシスタント</span><h3><a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">Meta Muse</a></h3><p>アプリ連携を使った日常タスク支援。無料枠あり、米国から提供開始。</p></article>
+        <article class="card"><span class="tag">文章・相談</span><h3><a href="https://gemini.google.com/">Google Argon</a></h3><p>文章力が高いとの評判。自分では未評価。</p></article>
+        <article class="card"><span class="tag">普段使い</span><h3><a href="https://chatgpt.com/">ChatGPT</a> / <a href="https://claude.ai/">Claude</a></h3><p>文章、相談、資料読解。</p><p class="price">Plus / Pro ともに <b>$20/月</b>（米国目安）</p></article>
       </div>
-      <h3 style="margin:32px 0 14px">任せやすい仕事</h3><div class="grid">
-        <article class="card"><h3>ファイルを整理する</h3><p>フォルダの中身を一覧化し、ファイル名や内容から分類案を作る。まず読み取りと提案だけ頼み、確認してから移動・改名する。</p></article>
-        <article class="card"><h3>ネットの情報を集める</h3><p>調べるテーマ・期間・情報源を指定。複数ページの要約、共通点と違い、出典リンクを表にまとめてもらう。</p></article>
-        <article class="card"><h3>データを解析する</h3><p>CSVなどを読み、欠損や傾向を確認。月次集計、グラフ、分析メモを作る。指標の定義と対象期間も伝える。</p></article>
-        <article class="card"><h3>資料やコードを扱う</h3><p>複数文書から議事録や比較表を作る。コードの調査・修正・テストも、変更理由と差分を見ながら進める。</p></article>
-      </div>
-      <h3 style="margin:32px 0 14px">依頼文の例</h3><div class="prompt"><b>目的＋対象＋条件＋成果物</b><br>「資料/2026のPDFとCSVから売上の月次傾向をまとめてください。最初に対象ファイル一覧と分析方針を出してください。ファイル移動・削除・外部送信はしないでください。最後に出典ファイル名付きのMarkdownレポートと集計CSVを作ってください。」</div>
+      <h3 style="margin:28px 0 10px">活用例</h3><p>ファイル分類 / Web情報の要約と比較 / CSV解析 / レポート作成</p>
+      <div class="prompt"><b>依頼の型：</b>目的・対象・条件・成果物を指定。例「このフォルダのCSVを月次集計し、出典付きレポートに。ファイルの移動・削除はしないで。」</div>
     </section>
 
-    <section id="automation" class="section"><div class="section-head"><div><div class="eyebrow">02 / Automation</div><h2>自動化コーナー</h2></div><p>画面操作は専用ツールに任せ、AIは手順作成や結果の確認を担当。</p></div>
+    <section id="automation" class="section"><div class="section-head"><div><div class="eyebrow">02 / Automation</div><h2>自動化</h2></div><p>WebはPlaywright。AndroidはADB。</p></div>
       <div class="grid">
-        <article class="card"><span class="tag">Web</span><h3><a href="https://playwright.dev/">Playwright</a></h3><p>ブラウザ操作、フォーム入力、スクリーンショット、E2Eテストに。繰り返し作業はスクリプト化し、ラベルやロールで要素を指定すると壊れにくい。</p></article>
-        <article class="card"><span class="tag">Android</span><h3><a href="https://developer.android.com/tools/adb">ADB（Android Debug Bridge）</a></h3><p>端末・エミュレーターでアプリを起動したり、ログや画面を取得したりするコマンドラインツール。端末でUSBデバッグを有効にして接続を許可する。</p></article>
+        <article class="card"><span class="tag">Web</span><h3><a href="https://playwright.dev/">Playwright</a></h3><p>ブラウザ操作・フォーム入力・画面テストを自動化。</p></article>
+        <article class="card"><span class="tag">Android</span><h3><a href="https://developer.android.com/tools/adb">ADB</a></h3><p>端末操作・アプリ起動・ログ取得。実機はUSBデバッグを許可。</p></article>
       </div>
       <p class="note" style="margin-top:14px">Android端末の操作なら通常は <code>adb</code>。<code>gdb</code> は主にネイティブコードのデバッグに使う別ツール。</p>
-      <div class="steps" style="margin-top:28px"><div class="step"><h3>手順を決める</h3><p>対象、成功条件、触ってよい範囲をAIに整理してもらう。</p></div><div class="step"><h3>自動化する</h3><p>PlaywrightやADBなど、目的に合う道具で再現可能な手順にする。</p></div><div class="step"><h3>結果を検証する</h3><p>期待した表示やデータになったか確認し、ログや画像を残す。</p></div></div>
-      <div class="warn" style="margin-top:24px"><b>AIに依頼を断られたら</b><br>古いモデルや別AIで安全制限を回避するのではなく、目的・権限・対象を具体的に説明し、読み取りや提案など安全な小さい段階から頼む。正当な作業でも権限や利用規約に反する操作は行わず、管理者承認や許可済みの方法を確認する。</div>
+      <p class="note">流れ：手順を決める → 自動化 → ログや画面で確認。</p>
+      <div class="warn" style="margin-top:18px"><b>AIが断ったら：</b>目的・権限・対象を明確にし、読み取りや提案から頼む。別モデルで制限を回避しない。</div>
     </section>
 
-    <section id="image" class="section"><div class="section-head"><div><div class="eyebrow">03 / Image</div><h2>画像生成AI</h2></div><p>画像を作る用途は、動画生成とは別に選ぶ。</p></div><div class="grid">
-      <article class="card"><span class="tag">おすすめ</span><h3><a href="https://gemini.google.com/">Google Nano Banana</a></h3><p>Googleの画像生成モデル。作りたい画像を会話で説明し、出力を見ながら修正する用途に。</p></article>
-      <article class="card"><span class="tag">手軽さ</span><h3><a href="https://chatgpt.com/">ChatGPT Images</a></h3><p>会話の流れで画像を生成し、部分修正を頼みやすい。無料枠や生成上限はプランにより変わる。</p><p class="price">Plus <b>$20/月</b>（米国価格目安）。</p></article>
-    </div><p class="note" style="margin-top:14px">プロンプトには「主役・場所・画風・構図・用途」を入れる。文字入り画像は、生成後に表記を確認する。</p></section>
+    <section id="image" class="section"><div class="section-head"><div><div class="eyebrow">03 / Image</div><h2>画像生成</h2></div><p>おすすめ：Google Nano Banana。</p></div><div class="grid">
+      <article class="card"><h3><a href="https://gemini.google.com/">Google Nano Banana</a></h3><p>画像生成・編集の第一候補。</p></article>
+      <article class="card"><h3><a href="https://chatgpt.com/">ChatGPT Images</a></h3><p>会話しながら生成・修正。無料枠あり。</p></article>
+    </div></section>
 
-    <section id="video" class="section"><div class="section-head"><div><div class="eyebrow">04 / Video</div><h2>動画生成AI</h2></div><p>短い試作を作り、指示を直して仕上げる。</p></div><div class="grid">
-      <article class="card"><span class="tag">おすすめ</span><h3><a href="https://seed.bytedance.com/en/seedance">Seedance</a></h3><p>テキストや画像から動画を生成。Dreaminaなど提供サービスのプランやクレジットで利用条件が異なる。</p><p class="price">Dreamina Basic <b>$15/月からの表示例</b>。地域・キャンペーン・継続価格を要確認。</p></article>
-      <article class="card"><h3>動画プロンプトの型</h3><p>主役、動き、場所、時間・光、カメラの動き、画角、長さを指定する。</p><p class="note">例：夕方の海辺を歩く白い犬。自然な逆光、ゆっくり追従するカメラ、縦長、5秒。</p></article>
-    </div><p class="note" style="margin-top:14px">生成前に設定ごとのクレジット消費を確認。再生成する回数も含めて予算を考える。</p></section>
+    <section id="video" class="section"><div class="section-head"><div><div class="eyebrow">04 / Video</div><h2>動画生成</h2></div><p>おすすめ：Seedance。</p></div><div class="grid">
+      <article class="card"><h3><a href="https://seed.bytedance.com/en/seedance">Seedance</a></h3><p>テキストや画像から動画を生成。Dreaminaはクレジット制。</p><p class="price">Basic <b>$15/月からの価格例</b></p></article>
+      <article class="card"><h3>指示の要素</h3><p>主役・動き・場所・光・カメラ・画角・長さ。</p></article>
+    </div></section>
 
-    <section id="prices" class="section"><div class="section-head"><div><div class="eyebrow">05 / Pricing</div><h2>料金の早見表</h2></div><p>2026年11月に確認した米ドルの目安。</p></div><div class="table-wrap"><table><thead><tr><th>サービス</th><th>月額の目安</th><th>メモ</th></tr></thead><tbody>
+    <section id="prices" class="section"><div class="section-head"><div><div class="eyebrow">05 / Pricing</div><h2>料金</h2></div><p>米ドルの目安。地域・税・契約経路で変動。</p></div><div class="table-wrap"><table><thead><tr><th>サービス</th><th>月額</th><th>備考</th></tr></thead><tbody>
       <tr><td>ChatGPT</td><td>Plus $20 / Pro $100・$200・$500</td><td>地域・提供状況で異なる。API別料金。</td></tr>
       <tr><td>Claude</td><td>Pro $20 / Max $100・$200</td><td>年払いProは$200/年。米国価格目安。</td></tr>
       <tr><td>OpenCode</td><td>本体無料 / Go $10 / Go Plus $40</td><td>Teams $20/人。API直結は従量課金。</td></tr>
       <tr><td>Grok</td><td>Plus $8 / Premium $30 / Super $100 / Ultra $200</td><td>Grok BotはPremium以上。共有利用枠あり。</td></tr>
       <tr><td>Dreamina / Seedance</td><td>Basic $15/月からの表示例</td><td>クレジット制。地域・キャンペーンで変動。</td></tr>
       <tr><td>DeepSeek API</td><td>月額なし、従量課金</td><td>Flashはピーク時入力$0.30・出力$1.20 / 100万トークン。</td></tr>
-    </tbody></table></div><p class="note" style="margin-top:13px">日本円、税、アプリストア価格、キャンペーンは異なる場合があります。申込画面で請求額と更新後の価格を確認してください。</p></section>
+    </tbody></table></div><p class="note" style="margin-top:13px">契約前に申込画面の請求額と更新価格を確認。</p></section>
   </main>
   <footer class="footer"><div class="wrap"><p>個人用のAIツール活用メモ。機能や料金は更新されます。購入・業務利用前に各公式サイトをご確認ください。</p><p>出典：<a href="https://playwright.dev/docs/intro">Playwright</a> · <a href="https://developer.android.com/tools/adb">Android ADB</a> · <a href="https://x.ai/pricing">Grok料金</a> · <a href="https://opencode.ai/docs/go">OpenCode Go</a> · <a href="https://www.anthropic.com/pricing">Claude料金</a> · <a href="https://chatgpt.com/pricing">ChatGPT料金</a> · <a href="https://dreamina.capcut.com/pricing/dreamina-seedance-price-day">Dreamina</a></p><a href="https://github.com/jim-auto/ai_tips">GitHub リポジトリ</a></div></footer>
 </body>

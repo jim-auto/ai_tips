@@ -22,18 +22,19 @@
     </article>
 
     <section id="agents" class="section"><div class="section-head"><div><div class="eyebrow">01 / Agents</div><h2>エージェントAI</h2></div><p>自立型パーソナルエージェントと、コーディングエージェントを使い分ける。</p></div>
-      <h3 style="margin:0 0 12px">自立型パーソナルエージェント</h3><div class="table-wrap"><table><thead><tr><th>例</th><th>得意なこと</th><th>動き方・向いている人</th></tr></thead><tbody>
-        <tr><td><a href="https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt">ChatGPT Work / Browser</a></td><td>Web調査、フォーム入力、複数手順のブラウザ作業</td><td>頼んだタスクを進め、ログインや確認が必要な場面で止まる。都度指示しながら使いたい人向け。</td></tr>
-        <tr><td><a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">Meta Muse</a></td><td>日常の用事、長期目標、個人アプリ連携</td><td>会話から好みを覚え、アプリを閉じた後も作業を継続。メール送信・購入などは承認を求める。個人秘書型。</td></tr>
-        <tr><td><a href="https://docs.x.ai/grok-bot/overview">Grok Bot</a></td><td>複数アプリをまたぐ業務、定期タスク、Bot同士の分担</td><td>永続するクラウドPC（ブラウザ・ファイル・ターミナル）で動く。繰り返しの業務フロー向け。Premium $30/月から。</td></tr>
+      <h3 style="margin:0 0 12px">自立型パーソナルエージェント</h3><div class="table-wrap"><table><thead><tr><th>サービス</th><th>得意なこと</th><th>特徴</th><th>向いている人</th></tr></thead><tbody>
+        <tr><td><a href="https://help.openai.com/en/articles/20001530-getting-started-with-your-dot">ChatGPT dot</a></td><td>相談を続けながら、プロジェクトを前に進める</td><td>ChatGPTの記憶や連携アプリを使い、会話の間も作業を継続。成果をレビューして軌道修正。</td><td>ChatGPTを普段使いし、同じ相手に継続して相談したい人。</td></tr>
+        <tr><td><a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">Meta Muse</a></td><td>日常の用事、長期目標、ブラウザ上の作業</td><td>好みを覚え、アプリを閉じた後も進行。メール送信や購入は確認を求める。</td><td>予定・買い物・生活の用事を秘書のように頼みたい人。</td></tr>
+        <tr><td><a href="https://docs.x.ai/grok-bot/overview">Grok Bot</a></td><td>アプリをまたぐ仕事、定期処理、複数Botの分担</td><td>クラウドPC（ブラウザ・ファイル・ターミナル）で動き、手順をルーチン化できる。</td><td>仕事の定型フローを継続して任せたい人。Premium $30/月から。</td></tr>
       </tbody></table></div>
+      <p style="margin:16px 0 8px"><b>非エンジニアには？</b>秘書のように相談し、調査・予定・日常の用事を任せたいなら、パーソナルエージェントの方が始めやすい。コードやローカルの大量ファイルを直接扱うならコーディングエージェントが便利。</p>
+      <p class="note">自分はChatGPT dotとMuseを軽く使った段階で、明確な優劣や違いはまだ分からない。公式説明ではどちらも記憶・アプリ連携・継続作業を掲げており、使い心地は実際に試して判断。</p>
       <h3 style="margin:26px 0 12px">コーディングエージェント</h3><div class="grid">
         <article class="card"><span class="tag">高性能</span><h3><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a></h3><p>コードベースを読み、複数ファイルを編集し、コマンドやテストを実行。</p><p class="price">Claude Pro <b>$20/月</b>（米国目安）</p></article>
         <article class="card"><span class="tag">高性能</span><h3><a href="https://developers.openai.com/codex">Codex</a></h3><p>コードの作成・レビュー・デバッグ。CLI、IDE、Web/Cloudで使える。</p><p class="price">ChatGPTプランに含まれる。利用枠はプラン別。</p></article>
         <article class="card"><span class="tag">低価格</span><h3><a href="https://opencode.ai/">OpenCode ＋ DeepSeek Flash</a></h3><p>モデルを選んで使う低コスト構成。軽めの実装や個人開発の候補。</p><p class="price">OpenCode本体無料。APIは従量課金。</p></article>
       </div>
       <p style="margin:20px 0 10px"><b>所感：</b>高性能エージェントは Claude Code と Codex の二強。今は Claude Code が強く感じるが、両者が切磋琢磨している。簡単な作業や一般ユーザーには、ここまでの性能が不要なことも多い。</p>
-      <p><b>パーソナル系の違い：</b>ChatGPTは指示ごとの汎用作業役、Museは好みや目標を踏まえる個人秘書、Grok BotはクラウドPCで定期業務を回すチーム役。</p>
       <div class="prompt"><b>活用例：</b>ファイル分類 / Web情報の要約・比較 / CSV解析 / レポート作成</div>
       <p class="note">Google Argonは文章力が高いとの評判。自分ではまだ未評価。</p>
     </section>

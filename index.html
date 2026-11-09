@@ -14,10 +14,10 @@
   </style>
 </head>
 <body>
-  <header class="top"><div class="wrap nav"><a class="brand" href="#top">AI TIPS / 個人メモ</a><nav class="navlinks" aria-label="メインナビゲーション"><a href="#agents">エージェントAI</a><a href="#models">モデル選び</a><a href="#automation">自動化</a><a href="#image">画像生成</a><a href="#video">動画生成</a><a href="#prices">料金</a></nav></div></header>
+  <header class="top"><div class="wrap nav"><a class="brand" href="#top">AI TIPS / 個人メモ</a><nav class="navlinks" aria-label="メインナビゲーション"><a href="#agents">エージェントAI</a><a href="#models">モデル選び</a><a href="#automation">自動化</a><a href="#image">画像生成</a><a href="#video">動画生成</a></nav></div></header>
   <main id="top" class="wrap">
     <article class="hero"><div class="eyebrow">AI TOOLS / QUICK REPORT</div><h1>AIツール活用レポート</h1><p>エージェントAI・自動化・生成AIの用途別メモ。</p><div class="warn"><b>情報の更新について：</b>AIは機能や料金の移り変わりが速いため、このレポートは2026年11月時点の状況をまとめたものです。最新情報は各公式サイトで確認してください。</div>
-      <nav class="contents" aria-label="目次"><b>目次</b><a href="#agents">01 エージェントAI</a><a href="#models">モデルの使い分け</a><a href="#automation">02 自動化</a><a href="#image">03 画像生成</a><a href="#video">04 動画生成</a><a href="#prices">05 料金</a></nav>
+      <nav class="contents" aria-label="目次"><b>目次</b><a href="#agents">01 エージェントAI</a><a href="#models">モデルの使い分け</a><a href="#automation">02 自動化</a><a href="#image">03 画像生成</a><a href="#video">04 動画生成</a></nav>
       <aside class="summary" aria-label="まとめ"><b>まとめ</b><span><strong>コーディング：</strong>性能ならClaude Code／Codex、低価格ならOpenCode Go（月$10でもかなり使える）。</span><span><strong>パーソナルエージェント：</strong>秘書のようにメールや予定の作業を依頼。おすすめはMuse。</span><span><strong>モデル：</strong>重い仕事はOpus／Sol、雑用はSonnet／Luna。</span><span><strong>自動化：</strong>AIではなく、AIと組み合わせるソフト。WebはPlaywright、AndroidはADB。</span><span><strong>画像生成：</strong>GPT Imageがおすすめ。Codexと一緒にも使いやすい。</span><span><strong>動画生成：</strong>品質重視ならSeedance。料金は高めなので注意。</span><span><strong>料金：</strong>サブスクと従量課金がある。契約前に最新価格を確認。</span></aside>
     </article>
 
@@ -25,11 +25,11 @@
       <div class="prompt" style="margin-bottom:22px"><b>料金の選び方：</b>エージェント系は利用量が増えると従量課金が割高になりやすいので、基本はサブスクがおすすめ。自分の使い方では、従量課金と比べて10倍くらいコスパが違うと感じることもある。</div>
       <h3 style="margin:0 0 12px">自立型パーソナルエージェント</h3>
       <p style="margin:16px 0 8px"><b>どちらが向く？</b>非エンジニアが秘書のように相談し、調査・予定・日常の用事を任せたいなら、パーソナルエージェントは始めやすい。Claude Codeのように複数セッションを分けて並行作業したい、コードやファイルを直接扱いたいならコーディングエージェントが向く。</p>
-      <p class="note">自分はChatGPT dotとMuseに、メール送信やカレンダーの予定通知などを頼んでいる。違いはまだはっきり分からない。個人情報を広く預け、買い物まで自動化する使い方もあるらしいが、自分はそこまで任せるのは慎重。</p>
+      <p class="note">自分はChatGPT dotとMuseに、メール送信やカレンダーの予定通知などを頼んでいる。違いはまだはっきり分からない。個人情報を広く預け、買い物まで自動化する使い方もあるらしいが、自分はそこまで任せるのは慎重。ChatGPTはPlus $20/月、Pro $100・$200・$500/月（米国目安）。</p>
       <h3 style="margin:26px 0 12px">コーディングエージェント</h3><p style="margin:0 0 14px">名前に「コーディング」と付くが、コード専用ではない。PC上のファイル整理、Web情報の収集・比較、CSV解析、文書作成などの雑務もこなせる。以前は「ターミナル」という黒い画面を使う場面が多かったが、最近はブラウザ版やアプリからも使え、入口のハードルは下がった。それでも、非エンジニアにはまだ利用者が少ない印象。</p><div class="grid">
-        <article class="card"><span class="tag">高性能</span><h3><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a></h3><p>コードベースを読み、複数ファイルを編集し、コマンドやテストを実行。</p><p class="price">Claude Pro <b>$20/月</b>（米国目安）</p></article>
-        <article class="card"><span class="tag">高性能</span><h3><a href="https://developers.openai.com/codex">Codex</a></h3><p>コードの作成・レビュー・デバッグ。CLI、IDE、Web/Cloudで使える。</p><p class="price">ChatGPTプランに含まれる。利用枠はプラン別。</p></article>
-        <article class="card"><span class="tag">低価格</span><h3><a href="https://opencode.ai/">OpenCode ＋ DeepSeek Flash</a></h3><p>モデルを選んで使う低コスト構成。軽めの実装や個人開発の候補。</p><p class="price">OpenCode Go <b>$10/月</b>。個人の所感では、かなり使える。</p></article>
+        <article class="card"><span class="tag">高性能</span><h3><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a></h3><p>コードベースを読み、複数ファイルを編集し、コマンドやテストを実行。</p><p class="price">Claude Pro <b>$20/月</b>、Max $100・$200/月（米国目安）。</p></article>
+        <article class="card"><span class="tag">高性能</span><h3><a href="https://developers.openai.com/codex">Codex</a></h3><p>コードの作成・レビュー・デバッグ。CLI、IDE、Web/Cloudで使える。</p><p class="price">ChatGPT Plus <b>$20/月</b>、Pro $100・$200・$500/月（米国目安）。Codexの利用枠はプラン別。</p></article>
+        <article class="card"><span class="tag">低価格</span><h3><a href="https://opencode.ai/">OpenCode ＋ DeepSeek Flash</a></h3><p>モデルを選んで使う低コスト構成。軽めの実装や個人開発の候補。</p><p class="price">OpenCode Go <b>$10/月</b>、Go Plus $40/月。個人の所感では$10でもかなり使える。DeepSeek API直結は従量課金（Flash: 入力$0.30・出力$1.20 / 100万トークン、ピーク時）。</p></article>
       </div>
       <p style="margin:20px 0 10px"><b>所感：</b>高性能エージェントは Claude Code と Codex の二強。今は Claude Code が強く感じるが、両者が切磋琢磨している。簡単な作業や一般ユーザーには、ここまでの性能が不要なことも多い。</p>
       <div class="prompt"><b>活用例：</b>ファイル分類 / Web情報の要約・比較 / CSV解析 / レポート作成</div>
@@ -67,14 +67,6 @@
       <article class="card"><h3>指示の要素</h3><p>主役・動き・場所・光・カメラ・画角・長さ。</p></article>
     </div><p style="margin:16px 0 6px"><b>所感：</b>AI動画で有名な INMU KING などの作例でもSeedanceの利用が話題。2026年11月現在、周囲でも使う人が多く、品質は群を抜く印象。</p><p class="note">元作品の使用モデルは公開情報だけでは確認できない場合があります。利用料は他の動画生成より高めになりやすいので、生成前にクレジット消費を確認。</p></section>
 
-    <section id="prices" class="section"><div class="section-head"><div><div class="eyebrow">05 / Pricing</div><h2>料金</h2></div><p>米ドルの目安。地域・税・契約経路で変動。</p></div><div class="table-wrap"><table><thead><tr><th>サービス</th><th>月額</th><th>備考</th></tr></thead><tbody>
-      <tr><td>ChatGPT</td><td>Plus $20 / Pro $100・$200・$500</td><td>地域・提供状況で異なる。API別料金。</td></tr>
-      <tr><td>Claude</td><td>Pro $20 / Max $100・$200</td><td>年払いProは$200/年。米国価格目安。</td></tr>
-      <tr><td>OpenCode</td><td>本体無料 / Go $10 / Go Plus $40</td><td>Teams $20/人。API直結は従量課金。</td></tr>
-      <tr><td>Grok</td><td>Plus $8 / Premium $30 / Super $100 / Ultra $200</td><td>Grok BotはPremium以上。共有利用枠あり。</td></tr>
-      <tr><td>Dreamina / Seedance</td><td>Basic $15/月からの表示例</td><td>クレジット制。地域・キャンペーンで変動。</td></tr>
-      <tr><td>DeepSeek API</td><td>月額なし、従量課金</td><td>Flashはピーク時入力$0.30・出力$1.20 / 100万トークン。</td></tr>
-    </tbody></table></div><p class="note" style="margin-top:13px">個人の使い方では、開発タスクをかなり並列で回さない限り、ClaudeやCodexは月100ドルで十分だと思う。自分はOpus 5.5を使いたくてClaudeに月200ドル、Codexは開発負荷に応じて契約。Opus 5.5が出る前はCodexに月200ドルを使い、Claudeを解約していた時期もある。必要なモデルや契約先は時期で変わるので、固定せず見直す。</p><p class="note">契約前に申込画面の請求額と更新価格を確認。</p></section>
   </main>
   <footer class="footer"><div class="wrap"><p>個人用のAIツール活用メモ。機能や料金は更新されます。購入・業務利用前に各公式サイトをご確認ください。</p><p>出典：<a href="https://help.openai.com/en/articles/20001530-getting-started-with-your-dot">ChatGPT dot</a> · <a href="https://help.openai.com/en/articles/20001280-using-cloud-browser-in-chatgpt">ChatGPT cloud browser</a> · <a href="https://developers.openai.com/codex">Codex</a> · <a href="https://developers.openai.com/api/docs/models">OpenAIモデル一覧</a> · <a href="https://www.anthropic.com/news/models">Claudeモデル一覧</a> · <a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">Meta Muse</a> · <a href="https://docs.x.ai/grok-bot/overview">Grok Bot</a> · <a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code</a> · <a href="https://playwright.dev/docs/intro">Playwright</a> · <a href="https://developer.android.com/tools/adb">Android ADB</a> · <a href="https://x.ai/pricing">Grok料金</a> · <a href="https://opencode.ai/docs/go">OpenCode Go</a> · <a href="https://www.anthropic.com/pricing">Claude料金</a> · <a href="https://chatgpt.com/pricing">ChatGPT料金</a> · <a href="https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0">Seedance公式情報</a> · <a href="https://www.inmuking.jp/en/articles/inmu-king-ai/">INMU KING制作メモ</a> · <a href="https://dreamina.capcut.com/pricing/dreamina-seedance-price-day">Dreamina料金</a></p><a href="https://github.com/jim-auto/ai_tips">GitHub リポジトリ</a></div></footer>
 </body>
